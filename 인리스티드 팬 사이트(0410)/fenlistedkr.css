@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  color: white;
+}
+
+#header-center {
+	margin: 0 auto;
+    width: 1080px;
+}
+
+#header-center h1 {
+	width: 420px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header-center h2 {
+	display: none;
+}
+
+#header-center fieldset {
+	margin-left: 20px;
+    padding: 12px 0px 12px 10px;
+    width: 300px;
+    height: 49px;
+    display: inline-block;
+    border: 2px solid #03cf5d;
+    vertical-align: middle;
+}
+
+#header-center fieldset input {
+	border: none;
+    padding: 0;
+	outline: none;
+}
+
+#header-center fieldset button {
+	width: 49px;
+    height: 49px;
+    border: none:
+    padding: 0;
+    background: #03cf5d; 
+}
