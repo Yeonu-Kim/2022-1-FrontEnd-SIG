@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+.relative {
+    position: relative;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-middle {
+    position: relative;
+    vertical-align: middle;
+}
+
+.center-align {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.d-block {
+    display: block;
+}
+
+.box-margin {
+    margin: 10px;
+}
+
+.box-padding {
+    padding: 70px;
+}
+
+.asset-file-upload-outline {
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    width: 98%;
+    height: 94%;
+}
+
+#home a {
+    text-decoration: none;
+}
+
+#home h1 {
+    width: 198px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+header fieldset {
+    margin-left: 20px;
+    padding: 12px 0 12px 10px;
+    width: 500px;
+    height: 49px;
+    display: inline;
+    border: 2px solid rgb(66, 135, 245);
+    vertical-align: middle;
+    position: relative;
+    right: -200px;
+}
+
+#search-image {
+    background: url(../images/search_icon.png);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 49px;
+    display: inline-block;
+    margin: 14px;
+    position: absolute;
+    right: -14px;
+    top: -14px;
+}
+
+header input {
+    border: none;
+    padding: 0;
+    outline: none;
+    vertical-align: top;
+    width: 405px;
+    height: 23px;
+}
+
+header button {
+    width: 70px;
+    height: 49px;
+    border: none;
+    padding: 0;
+    background: rgb(66, 135, 245);
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
+
+.Box {
+    border-color: #30363d;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+}
+nav ul {
+    margin: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin: 15px 10px;
+    display: inline-block;
+}
