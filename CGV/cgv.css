@@ -1,4 +1,197 @@
-div#menu {
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.center-align {
     margin: 0 auto;
     width: 980px;
+    position: relative;
 }
+
+header .center-align {
+    height: 57px;
+    padding: 30px 6px 25px 5px;
+    background-color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+header h1 a {
+    background-image: url("./pic/logoRed.png");
+    background-size: 117px 53px;
+    background-repeat: no-repeat;
+    width: 117px;
+    height: 53px;
+    text-decoration: none;
+    text-indent: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+header h1 span {
+    font-weight: 300;
+    font-size: 16px;
+    color: #222;
+    letter-spacing: 0.313em;
+    line-height: 1.500em;
+    position: relative;
+    top: -2px;
+    left: -10px;
+    display: inline-block;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline-block;
+}
+
+#user-info {
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    right:0;
+}
+
+#user-info a {
+    position: relative;
+    padding-bottom: 19px;
+    margin-left: 44px;
+}
+
+#login-image {
+    background-image: url("./pic/loginPassword.png");
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+#join-image {
+    background-image: url("./pic/loginJoin.png");
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+#mycgv-image {
+    background-image: url("./pic/loginMember.png");
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+#customer-image {
+    background-image: url("./pic/loginCustomer.png");
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+#login-menu, #join-menu, #mycgv-menu, #customer-menu {
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.462em;
+    white-space: nowrap;
+    transform: translate(-50%, 0);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav li a {
+    font-weight: 550;
+    font-size: 16px;
+    color: #222;
+    line-height: 1.500em;
+    text-decoration: none;
+}
+
+nav li a strong {
+    font-weight: 700;
+    color: #fb4357;
+}
+
+nav fieldset {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+nav fieldset button {
+    width: 26px;
+    height: 26px;
+    border: none;
+    padding: 0;
+    background-color: white;
+    background-position: center;
+}
+
+nav fieldset input{
+    border: none;
+    padding: 0 0 0 7px;
+    outline: none;
+    width: 180px;
+    height: auto;
+}
+
+#search-image {
+    background-image: url("./pic/search.png");
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+}
+
+.line {
+    display: inline-block;
+    content: '';
+    width: 1.25px;
+    height: 20px;
+    background-color: #cacaca;
+}
+
+#search {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+

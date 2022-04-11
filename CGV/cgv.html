@@ -3,43 +3,88 @@
 <head>
     <meta charset="utf-8" />
     <title>영화 그 이상의 감동. CGV</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="./pic/favicon.ico" />
     <link rel="stylesheet" href="./cgv.css">
 </head>
 <body>
 <header>
+    <div class="center-align">
         <h1>
-            <a href="https://www.cgv.co.kr">CGVCULTUREPLEX</a>
+            <a href="https://www.cgv.co.kr">CGV</a>
+            <span>CULTUREPLEX</span>
         </h1>
+        <div id="user-info">
+            <ul>
+                <li>
+                    <a href="https://www.cgv.co.kr/user/login/?returnURL=https%3a%2f%2fwww.cgv.co.kr%2fdefault.aspx">
+                        <span id="login-image"></span>
+                        <span id="login-menu">로그인</span>
+                    </a>
+                </li>
+                <li><a href="http://www.cgv.co.kr/user/join/">
+                    <span id="join-image"></span>
+                    <span id="join-menu">회원가입</span>
+                </a></li>
+                <li><a href="http://www.cgv.co.kr/user/mycgv/">
+                    <span id="mycgv-image"></span>
+                    <span id="mycgv-menu">MY CGV</span>
+                </a></li>
+                <li><a href="http://www.cgv.co.kr/support/default.aspx">
+                    <span id="customer-image"></span>
+                    <span id="customer-menu">고객센터</span>
+                </a></li>
+            </ul>
+        </div>
+    </div>
 </header>
 <nav>
-    <div id = "menu">
+    <div class = "center-align">
         <ul>
             <li>
-                <h2>영화</h2>
+                <h2>
+                    <a href="http://www.cgv.co.kr/movies/?lt=1&ft=0">영화</a>
+                </h2>
             </li>
             <li>
-                <h2>극장</h2>
+                <h2>
+                    <a href="http://www.cgv.co.kr/theaters/">극장</a>
+                </h2>
             </li>
             <li>
-                <h2>예매</h2>
+                <h2>
+                    <a href="http://www.cgv.co.kr/ticket/">
+                        <strong>예매</strong>
+                    </a>
+                </h2>
             </li>
             <li>
-                <h2>스토어</h2>
+                <h2>
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/">스토어</a>
+                </h2>
             </li>
             <li>
-                <h2>이벤트</h2>
+                <h2>
+                    <a href="http://www.cgv.co.kr/culture-event/event/defaultNew.aspx">이벤트</a>
+                </h2>
             </li>
             <li>
-                <h2>혜택</h2>
+                <h2>
+                    <a href="http://www.cgv.co.kr/discount/discountlist.aspx">혜택</a>
+                </h2>
             </li>
         </ul>
-        <div>
+        <div id = "search">
+            <span class="line"></span>
             <fieldset>
-                <legend> 검색 </legend>
-                <input />
-                <button>검색</button>
+                <legend class="blind"> 검색 </legend>
+                <input type="text" />
+                <button>
+                    <span class="blind">검색</span>
+                    <span id="search-image"></span>
+                </button>
             </fieldset>
+            <span class="line"></span>
+        </div>
         </div>
     </div>
 </nav>
@@ -47,10 +92,10 @@
 <main>
     <h3>무비차트</h3>
     <ol>
-        <li><img src="./앰뷸런스.jpg" alt="앰뷸런스" />앰뷸런스</li>
-        <li><img src="./모비우스.jpg" alt="모비우스" />모비우스</li>
-        <li><img src="./수퍼소닉2.jpg" alt="수퍼 소닉2" />수퍼 소닉2</li>
-        <li><img src="./스텔라.jpg" alt="스텔라" />스텔라</li>
+        <li><img src="./pic/앰뷸런스.jpg" alt="앰뷸런스" />앰뷸런스</li>
+        <li><img src="./pic/모비우스.jpg" alt="모비우스" />모비우스</li>
+        <li><img src="./pic/수퍼소닉2.jpg" alt="수퍼 소닉2" />수퍼 소닉2</li>
+        <li><img src="./pic/스텔라.jpg" alt="스텔라" />스텔라</li>
     </ol>
     <h3>EVENT</h3>
     <ul>
