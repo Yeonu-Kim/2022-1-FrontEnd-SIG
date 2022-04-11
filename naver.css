@@ -1,0 +1,131 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center-align {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+/*선택자(selector)*/
+/* ,title이렇게 해서 같은 값을 가지는 걸 더 만들 수 있음*/
+/*div는 생략가능-> #header-center이렇게도 가능한것*/
+/*header#header-center일경우는 앞의 header는 생략 불가*/
+
+div#header-search h1/* 자손태그 그런데 자식도 자손이어서 가능*/ {
+  width: 222px;
+  height: 52px;
+  display: inline-block;
+  background-image: url(./logos.png);
+  background-position: 0px -158px;
+  background-size: 457px 434px;
+  text-indent: 100%;
+  text-decoration: none;
+  overflow: hidden;
+  vertical-align: top; /*정렬*/
+  content: "";
+  position: relative;
+  top: -17px;
+  right: -10px;
+}
+
+/*
+#header-search > h1 이러면 자식선택자 {
+}
+*/
+
+#header-search fieldset {
+  margin-left: 20px;
+  /*padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 0;*/
+  padding: 12px 0 12px 10px;
+  width: 521px;
+  height: 49px;
+  display: inline-block;
+  border: 2px solid #03cf5d /*상하좌우가 다 같으면 이렇게 써도됌 hex표기법*/;
+  box-sizing: border-box;
+  vertical-align: top;
+  position: relative;
+  top: 14px;
+}
+/*content box : border과 padding안에 있는 제일 작은 박스
+  따라서 border-box로 해줘야 width계산을 할때 전체 검색창이 다 선택됌*/
+#header-search fieldset input {
+  border: none;
+  padding: 0;
+  outline: none; /*검색창에 있는 파란 줄을 없애줌*/
+  width: 405px;
+  height: 23px;
+}
+
+/*원래 모든 기본적인 검색창에는 인터넷 익스플로어가 설정해놓은 css가 있음
+그런데 이게 다른 웹브라우저에서는 잘 연동이 안되서 이것을 리셋해주는 것이 필요*/
+
+#header-search fieldset button {
+  width: 49px;
+  height: 49px;
+  border: none;
+  padding: 0;
+  background-color: #03cf5d;
+  position: absolute;
+  right: -1px;
+  top: -2px;
+}
+#header-search fieldset button span {
+  background-image: url(./logos.png);
+  background-position: -420px 0;
+  background-size: 457px 434px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+/* *{} : 모든태그에 {}안의 것을 행한다는 의미*/
+* {
+  box-sizing: border-box;
+}
+
+/*<span></span>*/
+/*display가 inline임*/
+/* inline : 자기 컨텐츠 공간만 차지함(빈공간 x) ex)`네이버를 시작페이지`로 라는 글자 수 만큼만 차지
+inline-block : 높이랑 너비를 지정해줄 수 있고 그 공간을 차지 
+block : 너비가 있든 없든 100% 다 차지함*/
+
+.blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
+/*화면에서는 안보이지만 시각장애인 screenreader같은거에서는 보임*/
+
+/*id는 고유한것 -> 한 div에만 존재가능
+class는 다른 div에도 들어갈 수 있음*/
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+
+.nav-item {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: -0.3px;
+}
+.change-color {
+  color: #03cf5d;
+}
