@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24292f;
+    height: 30px;
+    padding: 16px 24px 16px 24px;
+    display: block;
+    box-sizing: content-box;
+    position:relative;
+}
+
+.header {
+    display: inline-block;
+}
+
+#icon > a {
+    width: 32px;
+    height: 32px;
+    background-image: url("./whitecat.png");
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#search {
+    width: 300px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#search > fieldset {
+    width:270px;
+    height:30px;
+    border-radius: 5px / 5px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0.5px solid #83878d;
+}
+
+#search input {
+    border:none;
+    padding:0;
+    width: auto;
+    outline: none;
+    background-color: #24292f;
+    vertical-align: middle;
+}
+
+#menu {
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.menu-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+#right-menu {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 20px;
+    color: white;
+}
+
+main {
+    background-color: #f6f8fa;
+}
+
+#left {
+    width: 350px;
+    height: 720px;
+    display: inline-block;
+    vertical-align: top;
+    padding:24px;
+    margin: 0;
+    background-color: white;
+    border-right: 1px solid #d0d7de;
+}
+
+#recent-repositories {
+    border-bottom: #d0d7de 1px solid;
+}
+
+#first-line {
+    position:relative;
+}
+
+#recent-repositories h5 {
+    width: 200px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #24292f;
+    display: inline-block;
+}
+
+#recent-repositories button {
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    display: inline-block;
+    color: white;
+    background-color: #2da44e;
+    border: none;
+    border-radius: 5px / 5px;
+    box-sizing: content-box;
+    height: 20px;
+    padding: 3px 12px 3px 12px;
+}
+
+#recent-repositories input {
+    width: 100%;
+    height: 32px;
+    background-color: #f6f8fa;
+    border-radius: 5px / 5px;
+    border: 1px solid #d0d7de;
+
+}
+
+#recent-activity {
+    margin-top: 16px;
+}
+
+#recent-activity h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #24292f;
+}
+
+#recent-activity h7 {
+    font-size: 12px;
+    color: #57606a;
+    margin: 4px 0 2px;
+}
+
+#center {
+    width: 768px;
+    height: 720px;
+    display: inline-block;
+    vertical-align: top;
+    padding:24px;
+}
+
+#following {
+    border-bottom: #d0d7de 1px solid;
+}
+
+#discover {
+    margin-top: 16px;
+    padding:32px;
+    height: 166px;
+    background-color: white;
+    border-radius: 5px / 5px;
+    border: 1px solid #d0d7de;
+    box-sizing: content-box;
+}
+
+#discover h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #24292f;
+    margin: 0;
+}
+
+#discover h5 {
+    font-size: 16px;
+    color: #57606a;
+    margin: 8px 0 8px 0;
+    font-weight: 400;
+}
+
+#discover button {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 5px 16px 5px 16px;
+    background-color: #f6f8fa;
+    border-radius: 5px / 5px;
+    border: 1px solid #d0d7de;
+    color: #0969da;
+    margin-top: 8px;
+}
+
+#tip {
+    font-size: 12px;
+    color: #57606a;
+    padding-top: 15px;
+}
+
+#tip h7 {
+    display: block;
+    margin-top: 10px;
+}
+
+#center-menu {
+    font-size: 12px;
+    color: #57606a;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d0d7de;
+}
+
+#center-menu-left {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#center-menu-center {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#center-menu-right {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu {
+    width: 100%;
+    height: 16px;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+
+.center_menu {
+    text-decoration: none;
+    color: #57606a;
+}
+
+#right {
+    width: 350px;
+    height: 720px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.center {
+   margin:0 auto;
+}
+
