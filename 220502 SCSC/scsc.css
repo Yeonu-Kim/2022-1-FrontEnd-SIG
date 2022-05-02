@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+#html, body {
+    margin:0;
+    padding:0;
+    font-family: Dotum, '돋움', "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.center-align {
+    vertical-align: middle;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+.relative{
+    position: relative;
+}
+
+header{
+    padding: 10px 0px 0px;
+    text-align: center;
+}
+
+#header-top{
+    float:right;
+}
+
+#header-top span{
+    color: #333;
+    float: right;
+    padding: 0px 7px 0px 7px;
+    font-size: 12px;
+}
+
+#header-search {
+  clear: both;
+  vertical-align: middle;
+  padding-top:10px;
+}
+
+#header-search img{
+    width: 160px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#header-search a{
+    text-decoration: none;
+}
+
+#header-search fieldset {
+    margin-left:18px;
+    padding: 12px 0 12px 10px;
+    display: inline-block;
+    width: 260px;
+    height: 38px;
+    border: 4px solid #F47C3C;
+    border-radius: 10px;
+    background: #F47C3C;
+    position: relative;
+    vertical-align: middle;
+}
+
+#header-search fieldset input {
+    border: none;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+    position: absolute;
+    right: 35px;
+    top:0;
+    border-radius: 10px;
+    width: 216px;
+    height: 30px;
+}
+
+#header-search fieldset button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    background: #F47C3C;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#header-nav {
+    position: absolute;
+    top: 0;
+    right:0;
+}
