@@ -24,11 +24,11 @@
             <h2 class="blind">검색창</h2>
             <fieldset>
               <legend class="blind">검색</legend>
-              <input value="종목명·지수명 입력"/>
-              <button>
+              <div class="search"><input value="종목명·지수명 입력"/></div>
+              <button class="search-button">
                 <span class="blind">검색</span>
-                <span id="search-image"></span>
               </button>
+              <a href="#" class="total-search-button">통합검색 </a>
             </fieldset>
           </div>
         </div>
@@ -46,7 +46,13 @@
     </nav>
     <main>
       <div class="recent-view">
-        <h3>최근 조회 종목</h3>
+        <div class="option-tab">
+          <ul>
+            <li> <a href="/"></a> </li>
+            <li> <a href="/"></a> </li>
+          </ul>
+        </div>
+        <div class="view-tab"></div>
       </div>
       <div id="container">
         <div class="content">
@@ -63,20 +69,21 @@
           </div>
           <div class="article-down">
             <div class="section1">
-              <h3>환전고시환율</h3>
-              <h3>국제시장환율</h3>
-              <h3>금리</h3>
+              <div>환전고시환율</div>
+              <div>국제시장환율</div>
+              <div>금리</div>
             </div>
             <div class="section2">
-              <h3>유가</h3>
-              <h3>금시세</h3>
-              <h3>원자제</h3>
+              <div>유가</div>
+              <div>금시세</div>
+              <div>원자제</div>
             </div>
           </div>
         </div>
         <div class="aside">
-          <h4>해외증시</h4>
-          <h4>인기 검색 종목</h4>
+          <div class="aside-stock">해외증시</div>
+          <div class="popular-stocks">인기 검색 종목</div>
+          <div class="notice"> 공지사항 </div>
         </div>
       </div>
     </main>
