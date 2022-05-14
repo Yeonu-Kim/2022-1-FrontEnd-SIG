@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+#html, body {
+    margin:0;
+    margin-left:35px;
+    margin-right:35px;
+    font-family: Dotum, '돋움', "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.center-align {
+    vertical-align: middle;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+.relative{
+    position: relative;
+}
+
+header{
+    padding: 10px 0px 0px;
+    text-align: center;
+}
+
+#header-top{
+    float:right;
+}
+
+.header-top-word{
+    color: #333;
+}
+
+.header-top-slash{
+    color: #ccc;
+}
+
+#header-top span{
+    float: right;
+    padding: 0px 7px 0px 7px;
+    font-size: 12px;
+}
+
+#header-search {
+  clear: both;
+  vertical-align: middle;
+  padding:10px 20px 35px 20px;
+}
+
+#header-search img{
+    width: 160px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#header-search a{
+    text-decoration: none;
+}
+
+#header-search fieldset {
+    margin-left:18px;
+    padding: 12px 0 12px 10px;
+    display: inline-block;
+    width: 260px;
+    height: 38px;
+    border: 4px solid #F47C3C;
+    border-radius: 10px;
+    background: #F47C3C;
+    position: relative;
+    vertical-align: middle;
+}
+
+#header-search fieldset input {
+    border: none;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+    position: absolute;
+    right: 35px;
+    top:0;
+    border-radius: 10px;
+    width: 216px;
+    height: 30px;
+}
+
+#header-search fieldset button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    background: #F47C3C;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#search-image {
+    background: url(./search-13-24.png) no-repeat;
+    background-position: 7px 7px;
+    background-size: 15px 15px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+nav{
+    display:block;
+    max-width:100%;
+    height:44px;
+    border-radius: 10px;
+    background:#2B3E50;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    width:80%;
+}
+
+nav li {
+    display: block;
+    float: left;
+    color: white;
+    width:calc(100%/7);
+}
+
+nav li span{
+    height:44px;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    padding-top:11px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#nav-color-change{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    width: 60px;
+    height:44px;
+    background: #4E5D6C;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#nav-home {
+   width: 60px;
+   height:44px;
+   display:inline-block;
+   margin:0;
+   padding:0;
+   background: url("./house-24.png") 20px 11px no-repeat;
+   background-size: 20px 20px;
+}
+
+.nav-tool{
+    width: 42px;
+    height:44px;
+    display:block;
+    margin:0;
+    padding:0;
+    float:right;
+}
+
+#nav-bell{
+    background: url("./bell-3-24.png") 13px 14px no-repeat;
+    background-size: 16px 16px;
+}
+
+#nav-menu{
+    background: url("./menu-4-24.png") 13px 14px no-repeat;
+    background-size: 16px 16px;
+}
+
+main{
+    position:relative;
+}
+
+#first-main{
+    display:inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 20px 15px 0;
+    width: 75%;
+    height: 515px;
+    margin:0;
+}
+
+#second-main{
+    display:inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 20px 15px 0;
+    width: 25%;
+    height: 515px;
+    margin:0;
+}
+
+#main-image{
+    display: block;
+    float: top;
+    width:100%;
+    height: 300px;
+    top:0;
+    background: url("./scsc_banner.jpg") no-repeat;
+    background-size: 100% 300px;
+}
+
+#main-sig{
+    display: block;
+    float: bottom;
+    width:100%;
+    height: 215px;
+    bottom:0;
+}
+
+#main-login{
+    display: block;
+    float: top;
+    width:100%;
+    height: 200px;
+    bottom:0;
+}
+
+#main-notice{
+    display: block;
+    float: bottom;
+    width:100%;
+    height: 315px;
+    bottom:0;
+}
